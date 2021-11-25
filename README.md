@@ -1,2 +1,1 @@
-# android-samples
-Android playground
+# Android Playground

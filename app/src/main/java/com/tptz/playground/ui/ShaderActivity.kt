@@ -26,7 +26,7 @@ class ShaderActivity : AppCompatActivity() {
                 getTextBounds(TEXT, 0, TEXT.length, rect)
                 shader = shader(rect.height().toFloat())
             }
-            text = "Shader"
+            text = TEXT
         }
 
         val textView1 = TextView(this).apply {
@@ -37,7 +37,7 @@ class ShaderActivity : AppCompatActivity() {
             paint.apply {
                 shader = shader(lineHeight.toFloat())
             }
-            text = "Shader"
+            text = TEXT
         }
 
         val imageView = ImageView(this)

@@ -10,7 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.ShaderActivity"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTask">
@@ -20,6 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.ShaderActivity"/>
+        <activity android:name=".ui.SeekBarActivity" android:theme="@style/AppTheme.Dark"/>
     </application>
 
 </manifest>

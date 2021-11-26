@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.widget.SeekBar
 import android.widget.SeekBar.OnSeekBarChangeListener
 import androidx.appcompat.app.AppCompatActivity
-import com.tptz.playground.databinding.ActivityBarBinding
+import com.tptz.playground.databinding.ActivitySeekbarBinding
 import kotlin.math.abs
 
 /**
@@ -15,7 +15,7 @@ class SeekBarActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityBarBinding.inflate(layoutInflater)
+        val binding = ActivitySeekbarBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         window.attributes.apply {

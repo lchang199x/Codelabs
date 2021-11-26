@@ -19,8 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.ShaderActivity"/>
-        <activity android:name=".ui.SeekBarActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".ui.ShaderActivity" />
+        <activity
+            android:name=".ui.SeekBarActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".ui.MatrixActivity"/>
     </application>
 
 </manifest>

@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val list = collectActivitiesExcept()
+        val list = collectActivitiesExcept("com.tptz.playground.MainActivity")
 
         val adapter = HomeAdapter(list).apply {
             setOnItemClickListener(object : HomeAdapter.OnItemClickListener {

@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val list = collectActivitiesExcept("com.tptz.playground.MainActivity")
 
-        val adapter = HomeAdapter(list).apply {
+        val adapter = HomeAdapter(list.sorted()).apply {
             setOnItemClickListener(object : HomeAdapter.OnItemClickListener {
                 override fun onClick(position: Int) {
                     Intent().apply {

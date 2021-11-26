@@ -23,7 +23,8 @@
         <activity
             android:name=".ui.SeekBarActivity"
             android:theme="@style/AppTheme.Dark" />
-        <activity android:name=".ui.MatrixActivity"/>
+        <activity android:name=".ui.MatrixActivity" />
+        <activity android:name=".ui.StorageActivity"/>
     </application>
 
 </manifest>

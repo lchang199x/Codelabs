@@ -22,6 +22,19 @@ class ShaderActivity : AppCompatActivity() {
 
             setTextSize(TypedValue.COMPLEX_UNIT_SP, TEXT_SIZE_SP)
             paint.apply {
+                val rect = Rect()
+                getTextBounds(TEXT, 0, TEXT.length, rect)
+                shader = shader(rect.height().toFloat())
+            }
+            text = "Shader"
+        }
+
+        val textView1 = TextView(this).apply {
+            layoutParams = ViewGroup.LayoutParams(MATCH_PARENT, WRAP_CONTENT)
+            gravity = Gravity.CENTER_HORIZONTAL
+
+            setTextSize(TypedValue.COMPLEX_UNIT_SP, TEXT_SIZE_SP)
+            paint.apply {
                 shader = shader(lineHeight.toFloat())
             }
             text = "Shader"
@@ -35,6 +48,7 @@ class ShaderActivity : AppCompatActivity() {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
             addView(textView)
+            addView(textView1)
             addView(imageView)
         }
 
@@ -55,6 +69,7 @@ class ShaderActivity : AppCompatActivity() {
     }
 
     companion object {
+        private const val TEXT = "Shader"
         private const val TEXT_SIZE_SP = 100f
         private const val BITMAP_SIZE = 800
     }

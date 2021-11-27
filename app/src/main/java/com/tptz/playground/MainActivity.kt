@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val list = collectActivitiesExcept("com.tptz.playground.MainActivity")
+        val list = collectActivitiesExcept("com.tptz.playground.MainActivity").sorted()
 
-        val adapter = HomeAdapter(list.sorted()).apply {
+        val adapter = HomeAdapter(list).apply {
             setOnItemClickListener(object : HomeAdapter.OnItemClickListener {
                 override fun onClick(position: Int) {
                     Intent().apply {

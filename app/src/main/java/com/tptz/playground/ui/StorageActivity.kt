@@ -4,9 +4,10 @@ import android.os.Bundle
 import android.os.Environment
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.tptz.playground.base.BaseActivity
 import java.io.File
 
-class StorageActivity : AppCompatActivity() {
+class StorageActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val textView = TextView(this).apply {

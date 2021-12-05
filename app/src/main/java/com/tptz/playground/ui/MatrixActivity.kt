@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
-import androidx.appcompat.app.AppCompatActivity
 import com.tptz.playground.R
+import com.tptz.playground.base.BaseActivity
 
-class MatrixActivity : AppCompatActivity() {
+class MatrixActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         ImageView(this).apply {

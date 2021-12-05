@@ -20,12 +20,12 @@ class MainApp : Application(), LifecycleObserver {
 
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
     fun onForeground() {
-        Toast.makeText(this, "    ^_^", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, " ^_^", Toast.LENGTH_SHORT).show()
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
     fun onBackground() {
-        Toast.makeText(this, "    v_v", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, " v_v", Toast.LENGTH_SHORT).show()
     }
 
     companion object {

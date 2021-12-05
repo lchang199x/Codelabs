@@ -3,14 +3,14 @@ package com.tptz.playground.ui
 import android.os.Bundle
 import android.widget.SeekBar
 import android.widget.SeekBar.OnSeekBarChangeListener
-import androidx.appcompat.app.AppCompatActivity
+import com.tptz.playground.base.BaseActivity
 import com.tptz.playground.databinding.ActivitySeekbarBinding
 import kotlin.math.abs
 
 /**
  * @author Created by Chang Liu on 2021/11/26
  */
-class SeekBarActivity : AppCompatActivity() {
+class SeekBarActivity : BaseActivity() {
     private var lastBrightness = 0f
 
     override fun onCreate(savedInstanceState: Bundle?) {

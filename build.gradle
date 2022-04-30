@@ -2,6 +2,15 @@
 buildscript {
     ext.kotlin_version = "1.5.31"
     repositories {
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/jcenter"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/gradle-plugin"
+        }
         google()
         mavenCentral()
     }
@@ -16,6 +25,12 @@ buildscript {
 
 allprojects {
     repositories {
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/jcenter"
+        }
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon

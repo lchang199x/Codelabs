@@ -1,4 +1,4 @@
-package cc.changliu.play.ui
+package cc.changliu.codelabs.ui
 
 import android.graphics.*
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import cc.changliu.play.base.HomeScreenActivity
+import cc.changliu.codelabs.base.HomeScreenActivity
 
 class ShaderActivity : HomeScreenActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

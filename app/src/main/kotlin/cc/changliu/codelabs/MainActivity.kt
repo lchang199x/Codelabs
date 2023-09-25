@@ -1,4 +1,4 @@
-package cc.changliu.play
+package cc.changliu.codelabs
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.google.android.material.button.MaterialButton
-import cc.changliu.play.base.HomeScreenActivity
-import cc.changliu.play.databinding.ActivityMainBinding
-import cc.changliu.play.util.collectActivitiesExcept
+import cc.changliu.codelabs.base.HomeScreenActivity
+import cc.changliu.codelabs.databinding.ActivityMainBinding
+import cc.changliu.codelabs.util.collectActivitiesExcept
 
 /**
  * @author Created by Chang Liu on 2021/11/24
@@ -21,7 +21,7 @@ class MainActivity : HomeScreenActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val list = collectActivitiesExcept("cc.changliu.play.MainActivity").sorted()
+        val list = collectActivitiesExcept("cc.changliu.codelabs.MainActivity").sorted()
         list.forEach {
             MaterialButton(this).apply {
                 id = View.generateViewId()

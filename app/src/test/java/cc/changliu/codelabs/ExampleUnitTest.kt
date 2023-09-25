@@ -1,4 +1,4 @@
-package cc.changliu.play
+package cc.changliu.codelabs
 
 import org.junit.Test
 

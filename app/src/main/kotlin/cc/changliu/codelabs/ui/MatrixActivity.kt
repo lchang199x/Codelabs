@@ -1,4 +1,4 @@
-package cc.changliu.play.ui
+package cc.changliu.codelabs.ui
 
 import android.graphics.*
 import android.graphics.Shader.TileMode
@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
-import cc.changliu.play.R
-import cc.changliu.play.base.HomeScreenActivity
+import cc.changliu.codelabs.R
+import cc.changliu.codelabs.base.HomeScreenActivity
 
 class MatrixActivity : HomeScreenActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

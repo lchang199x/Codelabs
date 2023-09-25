@@ -1,7 +1,7 @@
-package cc.changliu.play.util
+package cc.changliu.codelabs.util
 
 import android.content.pm.PackageManager
-import cc.changliu.play.MainApp
+import cc.changliu.codelabs.MainApp
 
 fun collectActivitiesExcept(vararg list: String): List<String> {
     val manifestActivities = mutableListOf<String>()

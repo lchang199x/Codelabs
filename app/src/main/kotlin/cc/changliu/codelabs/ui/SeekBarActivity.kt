@@ -1,10 +1,10 @@
-package cc.changliu.play.ui
+package cc.changliu.codelabs.ui
 
 import android.os.Bundle
 import android.widget.SeekBar
 import android.widget.SeekBar.OnSeekBarChangeListener
-import cc.changliu.play.base.HomeScreenActivity
-import cc.changliu.play.databinding.ActivitySeekbarBinding
+import cc.changliu.codelabs.base.HomeScreenActivity
+import cc.changliu.codelabs.databinding.ActivitySeekbarBinding
 import kotlin.math.abs
 
 /**

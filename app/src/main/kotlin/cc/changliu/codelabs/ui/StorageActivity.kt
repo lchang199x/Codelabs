@@ -1,9 +1,9 @@
-package cc.changliu.play.ui
+package cc.changliu.codelabs.ui
 
 import android.os.Bundle
 import android.os.Environment
 import android.widget.TextView
-import cc.changliu.play.base.HomeScreenActivity
+import cc.changliu.codelabs.base.HomeScreenActivity
 import java.io.File
 
 class StorageActivity : HomeScreenActivity() {

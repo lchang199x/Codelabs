@@ -1,4 +1,4 @@
-package cc.changliu.play
+package cc.changliu.codelabs
 
 import android.annotation.SuppressLint
 import android.app.Application

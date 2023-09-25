@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace "cc.changliu.play"
+    namespace "cc.changliu.codelabs"
     compileSdk 34
 
     defaultConfig {
-        applicationId "cc.changliu.play"
+        applicationId "cc.changliu.codelabs"
         minSdk 24
         targetSdk 34
         versionCode 1

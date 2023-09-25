@@ -1,4 +1,4 @@
-package cc.changliu.play.base
+package cc.changliu.codelabs.base
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat

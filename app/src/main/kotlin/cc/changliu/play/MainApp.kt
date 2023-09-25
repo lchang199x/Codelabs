@@ -1,4 +1,4 @@
-package com.tptz.playground
+package cc.changliu.play
 
 import android.annotation.SuppressLint
 import android.app.Application

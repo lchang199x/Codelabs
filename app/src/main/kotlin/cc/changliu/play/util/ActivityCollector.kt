@@ -1,7 +1,7 @@
-package com.tptz.playground.util
+package cc.changliu.play.util
 
 import android.content.pm.PackageManager
-import com.tptz.playground.MainApp
+import cc.changliu.play.MainApp
 
 fun collectActivitiesExcept(vararg list: String): List<String> {
     val manifestActivities = mutableListOf<String>()

@@ -1,4 +1,4 @@
-package com.tptz.playground.ui
+package cc.changliu.play.ui
 
 import android.graphics.*
 import android.graphics.Shader.TileMode
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
-import com.tptz.playground.R
-import com.tptz.playground.base.BaseActivity
+import cc.changliu.play.R
+import cc.changliu.play.base.HomeScreenActivity
 
-class MatrixActivity : BaseActivity() {
+class MatrixActivity : HomeScreenActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         ImageView(this).apply {

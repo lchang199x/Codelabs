@@ -1,13 +1,12 @@
-package com.tptz.playground.ui
+package cc.changliu.play.ui
 
 import android.os.Bundle
 import android.os.Environment
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
-import com.tptz.playground.base.BaseActivity
+import cc.changliu.play.base.HomeScreenActivity
 import java.io.File
 
-class StorageActivity : BaseActivity() {
+class StorageActivity : HomeScreenActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val textView = TextView(this).apply {

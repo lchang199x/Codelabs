@@ -1,4 +1,4 @@
-package com.tptz.playground
+package cc.changliu.play
 
 import org.junit.Test
 

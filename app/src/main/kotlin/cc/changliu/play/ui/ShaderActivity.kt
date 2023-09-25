@@ -1,4 +1,4 @@
-package com.tptz.playground.ui
+package cc.changliu.play.ui
 
 import android.graphics.*
 import android.os.Bundle
@@ -10,9 +10,9 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.tptz.playground.base.BaseActivity
+import cc.changliu.play.base.HomeScreenActivity
 
-class ShaderActivity : BaseActivity() {
+class ShaderActivity : HomeScreenActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

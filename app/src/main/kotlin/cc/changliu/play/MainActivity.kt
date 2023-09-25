@@ -1,4 +1,4 @@
-package com.tptz.playground
+package cc.changliu.play
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -6,22 +6,22 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.google.android.material.button.MaterialButton
-import com.tptz.playground.base.BaseActivity
-import com.tptz.playground.databinding.ActivityMainBinding
-import com.tptz.playground.util.collectActivitiesExcept
+import cc.changliu.play.base.HomeScreenActivity
+import cc.changliu.play.databinding.ActivityMainBinding
+import cc.changliu.play.util.collectActivitiesExcept
 
 /**
  * @author Created by Chang Liu on 2021/11/24
  */
-class MainActivity : BaseActivity() {
-    lateinit var binding: ActivityMainBinding
+class MainActivity : HomeScreenActivity() {
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val list = collectActivitiesExcept("com.tptz.playground.MainActivity").sorted()
+        val list = collectActivitiesExcept("cc.changliu.play.MainActivity").sorted()
         list.forEach {
             MaterialButton(this).apply {
                 id = View.generateViewId()

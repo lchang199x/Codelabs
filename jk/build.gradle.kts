@@ -16,9 +16,17 @@ sourceSets {
     }
 }
 
+tasks.withType<Test>() {
+    useJUnitPlatform()
+
+    testLogging {
+        events("passed", "skipped", "failed")
+    }
+}
+
 dependencies {
     implementation(libs.kotlin.stdlib.jdk8)
     implementation(libs.kotlin.reflect)
     implementation(libs.kotlinx.coroutines.core)
-    testImplementation(libs.junit.jupiter)
+    testImplementation(libs.junit.jupiter) // api&engine all in jupiter
 }

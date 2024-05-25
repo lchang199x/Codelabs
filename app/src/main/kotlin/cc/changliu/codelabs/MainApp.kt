@@ -4,13 +4,12 @@ import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import android.widget.Toast
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleObserver
-import androidx.lifecycle.OnLifecycleEvent
+import androidx.lifecycle.DefaultLifecycleObserver
+import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ProcessLifecycleOwner
 
 @SuppressLint("StaticFieldLeak")
-class MainApp : Application(), LifecycleObserver {
+class MainApp : Application(), DefaultLifecycleObserver {
     override fun onCreate() {
         super<Application>.onCreate()
         context = applicationContext
@@ -18,13 +17,13 @@ class MainApp : Application(), LifecycleObserver {
         ProcessLifecycleOwner.get().lifecycle.addObserver(this)
     }
 
-    @OnLifecycleEvent(Lifecycle.Event.ON_START)
-    fun onForeground() {
+    override fun onStart(owner: LifecycleOwner) {
+        super.onStart(owner)
         Toast.makeText(this, " ^_^", Toast.LENGTH_SHORT).show()
     }
 
-    @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
-    fun onBackground() {
+    override fun onStop(owner: LifecycleOwner) {
+        super.onStop(owner)
         Toast.makeText(this, " v_v", Toast.LENGTH_SHORT).show()
     }
 

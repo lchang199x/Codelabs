@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="39dp"
+    android:viewportWidth="72"
+    android:viewportHeight="117">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M5,0h62 q5,0 5,5 v107 q0,5 -5,5h-62 q-5,0 -5,-5 v-107 q0,-5 5,-5" />
+
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.9"
+        android:translateX="-1.2"
+        android:translateY="1.5">
+        <path
+            android:fillColor="#F24E4E"
+            android:pathData="M5.49,17h2.42l1.27,-3.58h5.65L16.09,17h2.42L13.25,3h-2.5L5.49,17zM9.91,11.39l2.03,-5.79h0.12l2.03,5.79H9.91z" />
+    </group>
+
+    <group
+        android:pivotX="36"
+        android:pivotY="59"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="-27.5"
+        android:translateY="-35">
+        <path
+            android:fillColor="#F24E4E"
+            android:pathData="M36,50L30,59L36,68L42,59z" />
+    </group>
+
+    <group
+        android:rotation="180"
+        android:translateX="72"
+        android:translateY="117">
+        <group
+            android:scaleX="0.8"
+            android:scaleY="0.9"
+            android:translateX="-1.2"
+            android:translateY="1.5">
+            <path
+                android:fillColor="#F24E4E"
+                android:pathData="M5.49,17h2.42l1.27,-3.58h5.65L16.09,17h2.42L13.25,3h-2.5L5.49,17zM9.91,11.39l2.03,-5.79h0.12l2.03,5.79H9.91z" />
+        </group>
+
+        <group
+            android:pivotX="36"
+            android:pivotY="59"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:translateX="-27.5"
+            android:translateY="-35">
+            <path
+                android:fillColor="#F24E4E"
+                android:pathData="M36,50L30,59L36,68L42,59z" />
+        </group>
+    </group>
+
+    <group
+        android:pivotX="36"
+        android:pivotY="59"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <path
+            android:fillColor="#F24E4E"
+            android:pathData="M36,50L30,59L36,68L42,59z" />
+    </group>
+</vector>

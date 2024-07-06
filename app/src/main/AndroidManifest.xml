@@ -26,6 +26,7 @@
             android:theme="@style/AppTheme.Dark" />
         <activity android:name=".ui.MatrixActivity" />
         <activity android:name=".ui.StorageActivity"/>
+        <activity android:name=".ui.PokerActivity" />
     </application>
 
 </manifest>

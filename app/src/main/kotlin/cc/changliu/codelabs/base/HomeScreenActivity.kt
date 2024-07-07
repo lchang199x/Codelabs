@@ -8,7 +8,7 @@ import androidx.core.view.WindowInsetsControllerCompat
 /**
  * @author Created by Chang Liu on 2021/12/05
  */
-open class HomeScreenActivity : AppCompatActivity() {
+abstract class HomeScreenActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         WindowCompat.getInsetsController(window, findViewById(android.R.id.content)).let {

@@ -19,12 +19,12 @@ class MainApp : Application(), DefaultLifecycleObserver {
 
     override fun onStart(owner: LifecycleOwner) {
         super.onStart(owner)
-        Toast.makeText(this, " ^_^", Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, " ^_^", Toast.LENGTH_SHORT).show()
     }
 
     override fun onStop(owner: LifecycleOwner) {
         super.onStop(owner)
-        Toast.makeText(this, " v_v", Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, " v_v", Toast.LENGTH_SHORT).show()
     }
 
     companion object {

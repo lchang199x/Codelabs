@@ -22,10 +22,11 @@
         android:fillColor="#F24E4E"
         android:pathData="M36,47l-9,13l9,13l9,-13z" />
 
-    <!--  左上A  -->
+    <!--  左上10  -->
     <path
         android:fillColor="#F24E4E"
-        android:pathData="M8,4h2l4.7,13h-11.4m2,0h7.4l-1.2,-3.4h-5m0.5,-1.6h4l-2,-5.5" />
+        android:pathData="M6,4l0,12h-2v-9.2l-2,1v-1.8zM7,8a4,4.3 0,1 1,8 0
+                      v4a4,4.3 0,1 1,-8 0m2,0a2,2.3 0,1 0,4 0v-4a2,2.3 0,1 0,-4 0" />
 
     <group
         android:pivotX="36"
@@ -45,7 +46,8 @@
         android:translateY="120">
         <path
             android:fillColor="#F24E4E"
-            android:pathData="M8,4h2l4.7,13h-11.4m2,0h7.4l-1.2,-3.4h-5m0.5,-1.6h4l-2,-5.5" />
+            android:pathData="M6,4l0,12h-2v-9.2l-2,1v-1.8zM7,8a4,4.3 0,1 1,8 0
+                      v4a4,4.3 0,1 1,-8 0m2,0a2,2.3 0,1 0,4 0v-4a2,2.3 0,1 0,-4 0" />
 
         <group
             android:pivotX="36"

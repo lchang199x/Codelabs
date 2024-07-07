@@ -1,6 +1,7 @@
 package cc.changliu.codelabs.ui
 
 import android.os.Bundle
+import androidx.appcompat.content.res.AppCompatResources
 import cc.changliu.codelabs.R
 import cc.changliu.codelabs.base.HomeScreenActivity
 import cc.changliu.codelabs.databinding.ActivityPokerBinding
@@ -20,10 +21,16 @@ class PokerActivity : HomeScreenActivity() {
             R.drawable.ace_of_spades,
             R.drawable.ace_of_hearts,
             R.drawable.ace_of_clubs,
-            R.drawable.ace_of_diamonds
+            R.drawable.ace_of_diamonds,
+            R.drawable.ten_of_spades,
+            R.drawable.ten_of_hearts,
+            R.drawable.ten_of_clubs,
+            R.drawable.ten_of_diamonds
         )
         binding.viewer1.setOnClickListener {
-            binding.viewer1.setImageDrawable(getDrawable(imgIds[count++ % 6]))
+            binding.viewer1.setImageDrawable(
+                AppCompatResources.getDrawable(this, imgIds[count++ % imgIds.size])
+            )
         }
     }
 }

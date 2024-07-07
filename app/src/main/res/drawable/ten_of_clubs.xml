@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="40dp"
+    android:viewportWidth="72"
+    android:viewportHeight="120">
+
+    <!-- 72*120 background rectangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M6,0h60 q6,0 6,6 v108 q0,6 -6,6h-60 q-6,0 -6,-6 v-108 q0,-6 6,-6" />
+
+    <!--  6*6 grid lines  -->
+    <path
+        android:pathData="M0,6h72M0,12h72M0,18h72M0,24h72M0,30h72M0,36h72M0,42h72M0,48h72M0,54h72M0,60h72M0,66h72M0,72h72M0,78h72M0,84h72M0,90h72M0,96h72M0,102h72M0,108h72M0,114h72
+                        M6,0v120M12,0v120M18,0v120M24,0v120M30,0v120M36,0v120M42,0v120M48,0v120M54,0v120M60,0v120M66,0v120"
+        android:strokeWidth="0.2"
+        android:strokeColor="#40000000" />
+
+    <!--  中间的梅花，a指令四个参数1表示旋大顺,三个圆左右上顺序画成，逆时针和逆时针画的两个图形相交部分会为空心  -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M36,60a6,6 0,1 0,0 6a6,6 0,1 0,0 -6m3,0a6,6 0,1 0,-6 0
+                          M36,63l-2,8l0.4,0.4L36,70.5l1.6,0.9l0.4,-0.4" />
+
+    <!--  左上10  -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M6,4.5l0,12h-2v-9.2l-2,1v-1.8zM7,8.5a4,4.3 0,1 1,8 0v4a4,4.3 0,1 1,-8 0m2,0a2,2.3 0,1 0,4 0v-4a2,2.3 0,1 0,-4 0" />
+
+    <group
+        android:pivotX="36"
+        android:pivotY="60"
+        android:scaleX="0.56"
+        android:scaleY="0.56"
+        android:translateX="-27"
+        android:translateY="-36">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M36,60a6,6 0,1 0,0 6a6,6 0,1 0,0 -6m3,0a6,6 0,1 0,-6 0
+                          M36,63l-2,8l0.4,0.4L36,70.5l1.6,0.9l0.4,-0.4" />
+    </group>
+
+    <!--  右下10和梅花组合  -->
+    <group
+        android:rotation="180"
+        android:translateX="72"
+        android:translateY="120">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M6,4.5l0,12h-2v-9.2l-2,1v-1.8zM7,8.5a4,4.3 0,1 1,8 0v4a4,4.3 0,1 1,-8 0m2,0a2,2.3 0,1 0,4 0v-4a2,2.3 0,1 0,-4 0" />
+
+        <group
+            android:pivotX="36"
+            android:pivotY="60"
+            android:scaleX="0.56"
+            android:scaleY="0.56"
+            android:translateX="-27"
+            android:translateY="-36">
+            <path
+                android:fillColor="#000000"
+                android:pathData="M36,60a6,6 0,1 0,0 6a6,6 0,1 0,0 -6m3,0a6,6 0,1 0,-6 0
+                          M36,63l-2,8l0.4,0.4L36,70.5l1.6,0.9l0.4,-0.4" />
+        </group>
+    </group>
+</vector>

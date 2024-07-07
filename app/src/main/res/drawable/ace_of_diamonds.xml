@@ -20,7 +20,7 @@
     <!--  中间的方块  -->
     <path
         android:fillColor="#F24E4E"
-        android:pathData="M36,47l-9,13l9,13l9,-13z" />
+        android:pathData="M36,47q-4,9 -9,13q5,4 9,13q4,-9 9,-13q-5,-4 -9,-13" />
 
     <!--  左上A  -->
     <path
@@ -36,7 +36,7 @@
         android:translateY="-35">
         <path
             android:fillColor="#F24E4E"
-            android:pathData="M36,47l-9,13l9,13l9,-13z" />
+            android:pathData="M36,47q-4,9 -9,13q5,4 9,13q4,-9 9,-13q-5,-4 -9,-13" />
     </group>
 
     <group
@@ -56,7 +56,7 @@
             android:translateY="-35">
             <path
                 android:fillColor="#F24E4E"
-                android:pathData="M36,47l-9,13l9,13l9,-13z" />
+                android:pathData="M36,47q-4,9 -9,13q5,4 9,13q4,-9 9,-13q-5,-4 -9,-13" />
         </group>
     </group>
 </vector>

@@ -1,10 +1,10 @@
 # An all-in-one code lab
 
-## app
+## android
 My Android playground.
 
-## jk
+## playground
 My Java & Kotlin playground.
 
-## lc
-Common classes & utilities to solve LeetCode problems.
+## common
+Common classes & utilities.

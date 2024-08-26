@@ -24,6 +24,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Codelabs"
-include(":app")
-include(":jk")
-include(":lc")
+include(":android")
+include(":playground")
+include(":common")

@@ -8,6 +8,14 @@ plugins {
     kotlin("jvm")
 }
 
+sourceSets {
+    main {
+        java {
+            java.srcDirs("src/main/interview")
+        }
+    }
+}
+
 tasks.withType<Test>() {
     useJUnitPlatform()
 
@@ -17,6 +25,7 @@ tasks.withType<Test>() {
 }
 
 dependencies {
+    implementation(project(":common"))
     implementation(libs.kotlin.stdlib.jdk8)
     implementation(libs.kotlin.reflect)
     implementation(libs.kotlinx.coroutines.core)

@@ -23,6 +23,7 @@
         <activity android:name=".ui.ShaderActivity" />
         <activity android:name=".ui.MatrixActivity" />
         <activity android:name=".ui.PokerActivity" />
+        <activity android:name=".ui.GridLayoutActivity" />
     </application>
 
 </manifest>
